@@ -108,6 +108,99 @@ The project surveys existing approaches including:
 
 ---
 
+## 🚀 How to Run the Project (Flask)
+
+### 🧰 Prerequisites
+- Python 3.x
+- Git (optional)
+- Internet connection to install dependencies
+
+---
+
+### 📦 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+---
+
+### 📂 Step 2: Create a Virtual Environment
+
+#### 🪟 For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### 🍎 For Mac/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 📥 Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+> Or install manually:
+
+```bash
+pip install flask pandas scikit-learn matplotlib seaborn numpy
+```
+
+---
+
+### 🏃 Step 4: Run the Flask App
+
+#### 🪟 Windows:
+```bash
+python app.py
+```
+
+#### 🍎 Mac/Linux:
+```bash
+python3 app.py
+```
+
+Open your browser and go to:  
+`http://127.0.0.1:5000`
+
+---
+
+### 🌐 Step 5: Using the App
+- 🔍 Predict whether an Instagram account is fake or real  
+- 📊 Compare accuracy of models (Random Forest, Logistic Regression, Decision Tree)  
+- 📈 View results and dataset insights  
+
+---
+
+### 📁 Project Structure
+```
+├── app.py
+├── templates/
+│   ├── home.html
+│   ├── about.html
+│   ├── view.html
+│   ├── model_selection.html
+│   ├── prediction.html
+├── static/
+│   └── css/
+│   └── js/
+├── models/
+│   └── random_forest.pkl
+├── dataset/
+│   └── instagram_data.csv
+├── requirements.txt
+├── README.md
+```
+
+
 ## 🧾 Conclusion & Scope
 
 - Random Forest performed best and is selected for deployment.
@@ -123,4 +216,3 @@ The project surveys existing approaches including:
 - Centralized agency for fake account tracking
 - API-based real-time removal coordination
 - National-level fake profile prevention systems
-

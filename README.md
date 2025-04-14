@@ -5,20 +5,6 @@ This project addresses the growing challenge of fake social media accounts, espe
 
 ---
 
-## 📁 Table of Contents
-1. [Project Description](#project-description)
-2. [Problem Statement](#problem-statement)
-3. [Project Objectives](#project-objectives)
-4. [Related Work](#related-work)
-5. [System Design](#system-design)
-6. [Technical Stack](#technical-stack)
-7. [Algorithms Used](#algorithms-used)
-8. [Testing](#testing)
-9. [Results](#results)
-10. [Conclusion & Scope](#conclusion--scope)
-
----
-
 ## 💡 Project Description
 The aim is to identify fake accounts using behavioral and account metadata like followers, post count, account privacy, etc. Machine Learning algorithms are used to predict whether an account is real or fake.
 

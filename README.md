@@ -106,8 +106,8 @@ The project surveys existing approaches including:
 ### 📦 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/rishis26/fake-social-media-detector-using-ML.git)
+cd ake-social-media-detector-using-ML
 ```
 
 ---
